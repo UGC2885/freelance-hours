@@ -19,7 +19,7 @@ class User extends Authenticatable
     protected $fillable = [
         'name',
         'email',
-        'password',
+        'password', // Caso algo que não esteja atualizado aqui, ele não vai atualiar com a função de UPDATE
     ];
 
     /**
